@@ -61,6 +61,11 @@ group :development, :test do
 end
 
 group :development do
+  gem 'overcommit', '~> 0.58.0'
+  gem 'rubocop', '~> 1.25'
+  gem 'rubocop-rails', '~> 2.13'
+  gem 'rubocop-rspec', '~> 2.9'
+
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem 'web-console'
 
@@ -71,5 +76,4 @@ group :development do
   # gem "spring"
 end
 
-# custom gems below
-gem 'rubocop', '~> 1.25'
+# custom prod gems below
